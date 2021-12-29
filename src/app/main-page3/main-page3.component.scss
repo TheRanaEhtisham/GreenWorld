@@ -1,0 +1,27 @@
+#main-page3 {
+  height: 100vh;
+  background-color: #efefef;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .span1 {
+      font-size: 2rem;
+    }
+
+    .span2 {
+      font-size: 1.7rem;
+    }
+    .img {
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+}

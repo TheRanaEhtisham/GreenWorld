@@ -1,0 +1,35 @@
+#main-page4 {
+  height: 100vh;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+
+    .span1 {
+      font-size: 2rem;
+    }
+
+    .span2 {
+      font-size: 1.7rem;
+      margin: 15px 15px 10px;
+    }
+
+    .img {
+      margin-top: 30px;
+      width: 100%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+}
