@@ -1,0 +1,96 @@
+#main-page {
+  height: 95vh;
+  background-color: black;
+
+  .sec-class {
+    // width: 100%;
+    // margin: 10px 3rem;
+    display: flex;
+
+    flex-direction: column;
+    padding: 15px 5rem 0 4rem;
+
+    p {
+      color: #9c9c9c;
+      font-size: 12px;
+    }
+
+    svg {
+      position: relative;
+      animation: myfirst 2s 1;
+      animation-direction: alternate;
+    }
+
+    @keyframes myfirst {
+      0% {
+        left: 100%;
+        top: -40px;
+      }
+
+      0% {
+        left: 100%;
+        top: -20px;
+      }
+      50% {
+        left: 100%;
+        top: 0;
+      }
+
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+    }
+
+    .contact {
+      margin: 3rem 0 0 0;
+    }
+    .h1 {
+      color: #eeb699;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  }
+  .sales {
+    margin-top: 2rem;
+    width: 35%;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .address {
+      margin-top: 15px;
+    }
+    .ph {
+      margin-top: 15px;
+    }
+    .email {
+      margin-top: 15px;
+      color: #eeb699;
+    }
+  }
+
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0 0 0;
+
+    input {
+      margin: 10px;
+      background: transparent;
+      color: white;
+      border: 1px solid #9c9c9c;
+      border-radius: 3px;
+      padding: 4px 10px;
+    }
+    button {
+      margin: 10px;
+      background: #eeb699;
+      color: #222226;
+      border-radius: 3px;
+      border: 1px solid #eeb699;
+      padding: 4px 10px;
+    }
+  }
+}

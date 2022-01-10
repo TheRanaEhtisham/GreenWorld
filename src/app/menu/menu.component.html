@@ -1,0 +1,29 @@
+<div class="main-class">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" [routerLink]="['/']"
+      routerLinkActive="router-link-active"
+      [routerLinkActiveOptions]="{ exact: true }">The Project</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Residences</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">LifeStyle & Amenities</a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLink]="['/contact-us']"
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Contact</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" tabindex="-1">FloorPlans & Availbility</a>
+    </li>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>

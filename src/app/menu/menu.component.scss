@@ -1,0 +1,30 @@
+.main-class {
+  position: relative;
+  top: 19px;
+
+  ul {
+    justify-content: end;
+    margin-right: 3rem;
+    font-size: 13px;
+    padding-top: 8px;
+
+    li {
+      text-transform: uppercase;
+      a {
+        color: white;
+      }
+
+      &:hover {
+        background-color: #eeb699;
+        a {
+          color: black;
+        }
+      }
+    }
+
+    .router-link-active {
+      color: #eeb699 !important;
+      border-bottom: 2px solid #eeb699;
+    }
+  }
+}
