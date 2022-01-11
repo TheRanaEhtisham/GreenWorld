@@ -11,9 +11,15 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      var elmnt = document.getElementById('main-page');
-      elmnt!.scrollIntoView();
+      // var elmnt = document.getElementById('main-page');
+      // elmnt!.scrollIntoView();
+      this.showSplash = false;
+
       // this.showSplash = false;
     }, 1000);
+
+    // setTimeout(() => {
+    //   this.showSplash = false;
+    // }, 1300);
   }
 }

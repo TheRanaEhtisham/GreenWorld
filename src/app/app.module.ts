@@ -10,6 +10,8 @@ import { MainPage3Component } from './main-page3/main-page3.component';
 import { MainPage4Component } from './main-page4/main-page4.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ResidenciaComponent } from './residencia/residencia.component';
+import { LifestyleComponent } from './lifestyle/lifestyle.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     MainPage3Component,
     MainPage4Component,
     MenuComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ResidenciaComponent,
+    LifestyleComponent
   ],
   imports: [
     BrowserModule,

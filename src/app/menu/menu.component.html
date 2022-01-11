@@ -1,15 +1,32 @@
 <div class="main-class">
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" [routerLink]="['/']"
-      routerLinkActive="router-link-active"
-      [routerLinkActiveOptions]="{ exact: true }">The Project</a>
+      <a
+        class="nav-link active"
+        aria-current="page"
+        [routerLink]="['/']"
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >The Project</a
+      >
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Residences</a>
+      <a
+        class="nav-link"
+        [routerLink]="['/residence']"
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Residences</a
+      >
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">LifeStyle & Amenities</a>
+      <a
+        class="nav-link"
+        [routerLink]="['/lifestyle-amenities']"
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >LifeStyle & Amenities</a
+      >
     </li>
     <li class="nav-item">
       <a

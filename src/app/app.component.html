@@ -1,4 +1,4 @@
 <section id="app">
   <app-home *ngIf="showSplash"></app-home>
-  <app-menu id="main-page"></app-menu>
+  <app-menu *ngIf="!showSplash" id="main-page"></app-menu>
 </section>
