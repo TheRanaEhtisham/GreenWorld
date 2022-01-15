@@ -12,6 +12,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ResidenciaComponent } from './residencia/residencia.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LifestyleComponent } from './lifestyle/lifestyle.component';
     MenuComponent,
     ContactUsComponent,
     ResidenciaComponent,
-    LifestyleComponent
+    LifestyleComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
