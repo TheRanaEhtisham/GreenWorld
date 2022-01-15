@@ -1,11 +1,46 @@
 .gooter {
   height: 18rem;
-  padding: 0 5px;
   background: black;
-  margin: 2px 2px;
 
   .head {
-    padding: 0 243px;
-    color: #EFEFEF;
+    padding: 0 200px;
+    color: #efefef;
+    font-size: 15px;
+  }
+
+  .col1 {
+    text-align: center;
+    background: #1d1d20;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col2 {
+    text-align: center;
+    background: #2b292d;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    border: 0.75px solid #e9b296;
+    background-color: transparent;
+    color: #e9b296;
+    width: 90px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .footcopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 4rem;
+    font-size: 12px;
+    margin-left: 170px;
   }
 }
