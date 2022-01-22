@@ -58,18 +58,8 @@
     }
 
     .grid {
-      //   display: grid;
-      //   grid-template-columns: auto auto;
-      //   grid-template-rows: auto auto;
-      //   grid-auto-flow: column dense;
-      //   grid-gap: 10px;
-      //   padding: 10px;
-      //   display: flex;
-      //   margin: ;
       display: flex;
-      //   padding: 0px 20px;
       margin-top: 30px;
-      //   min-width: 330px;
       max-width: 700px;
       width: 100%;
       justify-content: space-between;
@@ -110,12 +100,56 @@
     }
   }
 
-  //   .teamDiv {
-  //     background-color: #fff;
-  //     .team {
-  //       font-size: 12px;
-  //       color: #eeb699;
-  //       margin-left: 50px;
-  //     }
-  //   }
+  .teamDiv {
+    background-color: #fff;
+    .team {
+      font-size: 12px;
+      color: #eeb699;
+      margin-left: 50px;
+    }
+
+    .grid {
+      display: flex;
+      margin-top: 30px;
+      // max-width: 700px;
+      width: 100%;
+      justify-content: center;
+      .col1 {
+        // width: 315px;
+        width: 40%;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .col1heading {
+          font-size: 30px;
+          color: #222226;
+          line-height: normal;
+        }
+
+        .img {
+          width: 300px;
+          height: 380px;
+        }
+      }
+      .col2 {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+
+        .col2heading {
+          font-size: 30px;
+          color: #222226;
+          line-height: normal;
+        }
+
+        .description {
+          font-size: 12px;
+          color: #222226;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
 }
