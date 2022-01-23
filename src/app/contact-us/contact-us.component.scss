@@ -19,6 +19,11 @@
       position: relative;
       animation: myfirst 2s 1;
       animation-direction: alternate;
+      outline: none;
+
+      & :focus {
+        outline: none;
+      }
     }
 
     @keyframes myfirst {

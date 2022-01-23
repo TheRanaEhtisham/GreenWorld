@@ -1,6 +1,11 @@
 #project {
   .logoSvg {
     margin: 30px 0px -25px 50px;
+    outline: none;
+
+    & :focus {
+      outline: none;
+    }
   }
 
   .visionDiv {
@@ -78,7 +83,7 @@
         flex-direction: column;
         .col1heading {
           font-size: 22px;
-          color: #EEB699;
+          color: #eeb699;
           line-height: normal;
         }
 
@@ -108,5 +113,4 @@
       }
     }
   }
-
 }
