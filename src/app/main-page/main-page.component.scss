@@ -98,3 +98,45 @@
     }
   }
 }
+
+#gulberg-screen {
+  background: #efefef;
+
+  .dflex {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .row-div {
+      align-items: flex-start;
+
+      .img1 {
+        width: 90%;
+      }
+      .img2 {
+        width: auto;
+        margin-top: 10px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .full-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .last-screen {
+    padding: 6rem 150px;
+
+    h3 {
+      margin: 0 20rem 4rem 0px;
+    }
+
+    p{
+      font-size: 15px;
+    }
+  }
+}
